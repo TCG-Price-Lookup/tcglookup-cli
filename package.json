@@ -30,7 +30,7 @@
   "author": "TCG Price Lookup",
   "type": "module",
   "bin": {
-    "tcglookup": "./dist/index.js"
+    "tcglookup": "dist/index.js"
   },
   "main": "./dist/index.js",
   "files": [
