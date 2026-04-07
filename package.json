@@ -1,0 +1,68 @@
+{
+  "name": "tcglookup",
+  "version": "0.1.0",
+  "description": "Command-line tool for looking up trading card prices for Pokemon, MTG, Yu-Gi-Oh!, One Piece, Lorcana, Star Wars: Unlimited, Flesh and Blood, and Pokemon Japan. Powered by the TCG Price Lookup API.",
+  "keywords": [
+    "tcg",
+    "trading-card-game",
+    "cli",
+    "command-line",
+    "pokemon",
+    "mtg",
+    "magic-the-gathering",
+    "yugioh",
+    "one-piece-tcg",
+    "lorcana",
+    "card-prices",
+    "tcgplayer",
+    "ebay",
+    "psa",
+    "bgs",
+    "cgc"
+  ],
+  "homepage": "https://tcgpricelookup.com/tcg-api",
+  "bugs": "https://github.com/TCG-Price-Lookup/tcglookup-cli/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TCG-Price-Lookup/tcglookup-cli.git"
+  },
+  "license": "MIT",
+  "author": "TCG Price Lookup",
+  "type": "module",
+  "bin": {
+    "tcglookup": "./dist/index.js"
+  },
+  "main": "./dist/index.js",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "start": "node dist/index.js",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "@tcgpricelookup/sdk": "^0.1.0",
+    "cli-table3": "^0.6.5",
+    "commander": "^12.1.0",
+    "picocolors": "^1.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsup": "^8.3.5",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  }
+}
