@@ -148,6 +148,18 @@ Useful for scripting.
 
 - The official [`@tcgpricelookup/sdk`](https://www.npmjs.com/package/@tcgpricelookup/sdk) — same package powers any JS/TS app you build.
 
+## Sister SDKs
+
+Same API, different language. Pick whichever fits your stack.
+
+- **[tcglookup-js](https://github.com/TCG-Price-Lookup/tcglookup-js)** — JavaScript / TypeScript (npm: [`@tcgpricelookup/sdk`](https://www.npmjs.com/package/@tcgpricelookup/sdk))
+- **[tcglookup-py](https://github.com/TCG-Price-Lookup/tcglookup-py)** — Python (PyPI: [`tcglookup`](https://pypi.org/project/tcglookup/))
+- **[tcglookup-go](https://github.com/TCG-Price-Lookup/tcglookup-go)** — Go (`github.com/TCG-Price-Lookup/tcglookup-go`)
+- **[tcglookup-rs](https://github.com/TCG-Price-Lookup/tcglookup-rs)** — Rust (crates.io: [`tcglookup`](https://crates.io/crates/tcglookup))
+- **[tcglookup-php](https://github.com/TCG-Price-Lookup/tcglookup-php)** — PHP (Packagist: [`tcgpricelookup/sdk`](https://packagist.org/packages/tcgpricelookup/sdk))
+
+The full developer ecosystem index lives at **[awesome-tcg](https://github.com/TCG-Price-Lookup/awesome-tcg)**.
+
 ## License
 
 MIT © TCG Price Lookup
